@@ -477,6 +477,15 @@ class AndroidStore {
   //酷安
   static const COOLAPK = const AndroidStore.internal('com.coolapk.market');
 
+  //VIVO应用商店
+  static const VIVO = const AndroidStore.internal('com.bbk.appstore');
+
+  //OPPO应用商店
+  static const OPPO = const AndroidStore.internal('com.oppo.market');
+
+  //魅族应用市场
+  static const MEIZU = const AndroidStore.internal('com.meizu.mstore');
+  
   @override
   String toString() {
     return 'AndroidStore{_packageName: $_packageName}';
